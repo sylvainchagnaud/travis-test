@@ -1,0 +1,25 @@
+{
+  "name": "travis-test",
+  "version": "0.0.1",  
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "jsnext:main": "dist/index.es.js",
+  "scripts": {
+    "test": "",   
+    "build": ""
+  },
+  "dependencies": {
+    "ldclient-js": "^2.3.1"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0"
+  },
+  "files": [
+    "dist"
+  ]
+}
