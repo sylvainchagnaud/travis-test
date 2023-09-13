@@ -26,5 +26,10 @@ jobs:
           echo "TEST"
           echo ${{github.event_name}}
           echo ${{github.event.action}}
+          
+      - name: Publish
+        if: github.event.action == 'published'
+        run: |
+          echo "PUBLICATION"
         
 
